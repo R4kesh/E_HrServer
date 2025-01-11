@@ -65,3 +65,17 @@ export const patientDetails=async(req,res)=>{
         res.status(500).json({ message: 'Failed to save patient details' });
     }
 }
+
+export const getAllPatients = async (req, res) => {
+    console.log('123');
+    
+    try {
+      const patients = await Patient.findAll();
+      console.log(patients);
+      
+      res.status(200).json(patients);
+    } catch (error) {
+      console.error("Error fetching patients:", error);
+      res.status(500).json({ error: "Failed to fetch patients" });
+    }
+  };
