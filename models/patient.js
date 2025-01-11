@@ -99,7 +99,7 @@ const Patient = db.define('Patient', {
 // Sync the table with the database
 export const syncPatientTable = async () => {
     try {
-        await Patient.sync({force:true});
+        await Patient.sync();
         console.log('Patient table created or exists already');
     } catch (error) {
         console.error('Error creating patient table:', error);
