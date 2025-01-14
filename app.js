@@ -6,6 +6,8 @@ import { syncPatientTable } from './models/patient.js';
 import patientRoutes from './routes/patientRoutes.js'
 import path from "path";
 import { fileURLToPath } from 'url';
+import { syncVitalsTable } from './models/vitals.js';
+import { syncInceptionTable } from './models/inception.js';
 
 // Define __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
@@ -23,6 +25,8 @@ app.listen(port,async () => {
   console.log(`Server running on port ${port}`);
   try {
     syncPatientTable()
+    syncVitalsTable()
+    syncInceptionTable()
     await sequelize.authenticate();
     console.log('Database connection established successfully.');
 } catch (error) {
