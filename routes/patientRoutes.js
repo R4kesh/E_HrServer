@@ -9,4 +9,4 @@ router.get('/patients', getAllPatients);
 router.get("/:id",getPatient)
 router.post('/vitals/:patientId',addVitals)
 router.post('/inception',inceptionDetails)
-export default router;
+export default router; 
