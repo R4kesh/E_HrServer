@@ -2,6 +2,14 @@ import Inception from "../models/inception.js";
 import Patient from "../models/patient.js";
 import Vitals from '../models/vitals.js'
 import { Op } from 'sequelize';
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url';
+
+// Define __dirname for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 
 export const patientDetails=async(req,res)=>{
     try {
@@ -230,3 +238,61 @@ export const patientSearch = async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 };
+
+export const testType  = async (req, res) => {
+  try {
+   
+
+    // Construct the file path
+    const filePath = path.join(__dirname,'..', 'assets', 'json', 'testType.json');
+
+    // Read the file asynchronously
+    const data = await fs.promises.readFile(filePath, 'utf-8');
+    // Send the parsed JSON data as the response
+    res.status(200).json(JSON.parse(data));
+  } catch (error) {
+    // Handle errors
+    console.error('Error reading the testType.json file:', error);
+    res.status(500).json({ error: 'Failed to read the testType.json file' });
+  }
+}
+
+export const listTestes = async (req, res) => {
+  try {
+    console.log('list')
+    const  testTypeId  = req.params.id; 
+    const filePath = path.join(__dirname,'..', 'assets', 'json', 'test.json');
+    const data = await fs.promises.readFile(filePath, 'utf-8');
+    const tests = JSON.parse(data).filter((test) => test.testTypeid === parseInt(testTypeId));
+    res.status(200).json(tests);
+  } catch (error) {
+    console.error('Error reading tests:', error);
+    res.status(500).json({ error: 'Failed to read tests' });
+  }
+}
+
+export const testCategoryData = async (req, res) => {
+  try {
+    console.log('asfdsd')
+    const testId = req.params.id;
+    fs.readFile(path.join(__dirname,'..', 'assets', 'json', 'testCategory.json'), 'utf8', (err, data) => {
+      if (err) {
+        return res.status(500).json({ error: 'Failed to read the file' });
+      }
+  
+      const testCategoryData = JSON.parse(data);
+      const category = testCategoryData.find(item => item.testid === parseInt(testId));
+  console.log('category',category)
+      if (category) {
+        res.json(category);
+      } else {
+        res.status(404).json({ error: 'Test ID not found' });
+      }
+    });
+    
+  } catch (error) {
+    console.log('error',error)
+    
+  }
+  
+}
