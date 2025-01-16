@@ -1,0 +1,439 @@
+[
+    {
+      "id": 1,
+      "testTypeid": 1,
+      "testid": 1,
+      "category": [
+        "BoneAnkle (Bone Densitometry Ankle)",
+        "BoneExt (Bone Densitometry Extremity)",
+        "BoneFemoral (Bone Densitometry Femoral Neck)",
+        "BoneHip (Bone Densitometry Hip)",
+        "BoneLumbar (Bone Densitometry Lumbar)",
+        "BoneWrist (Bone Densitometry Wrist)",
+        "BoneOther (Bone Densitometry Other)"
+      ]
+    },
+    {
+      "id": 2,
+      "testTypeid": 1,
+      "testid": 2,
+      "category": [
+        "Mammo (Mammogram Screening Bilateral)",
+        "MammoDxB (Mammogram Diagnostic Bilateral)",
+        "MammoDxU (Mammogram Diagnostic Unilateral with Ultrasound/Biopsy if Indicated)",
+        "USB (Ultrasound Breast)",
+        "MammoOther (Mammogram/Breast Imaging Other)"
+      ]
+    },
+    {
+      "id": 3,
+      "testTypeid": 1,
+      "testid": 3,
+      "category": [
+        "CTHBW (CT Head or Brain With Contrast)",
+        "CTHBWO (CT Head or Brain Without Contrast)",
+        "CTHBWOW (CT Head or Brain Without Followed by With Contrast)",
+        "CTOSPW (CT Orbit, Stella, or Posterior Fossa With Contrast)",
+        "CTOSPWO (CT Orbit, Stella, or Posterior Fossa Without Contrast)",
+        "CTOSPWOW (CT Orbit, Stella, or Posterior Fossa Without Followed by With Contrast)",
+        "CTMW (CT Maxillofacial Area With Contrast)",
+        "CTMWO (CT Maxillofacial Area Without Contrast)",
+        "CTMWOW (CT Maxillofacial Area Without Followed by With Contrast)",
+        "CTNW (CT Neck Soft Tissue With Contrast)",
+        "CTNWO (CT Neck Soft Tissue Without Contrast)",
+        "CTNWOW (CT Neck Soft Tissue Without Followed by With Contrast)",
+        "CTCW (CT Chest With Contrast)",
+        "CTCWO (CT Chest Without Contrast)",
+        "CTCWOW (CT Chest Without Followed by With Contrast)",
+        "CTCalcium (CT Heart Without Contrast With Calcium Scoring)",
+        "CTAbW (CT Abdomen With Contrast)",
+        "CTAbWO (CT Abdomen Without Contrast)",
+        "CTAbWOW (CT Abdomen Without Followed by With Contrast)",
+        "CTAPW (CT Abdomen/Pelvis With Contrast)",
+        "CTAPWO (CT Abdomen/Pelvis Without Contrast)",
+        "CTAPWOW (CT Abdomen/Pelvis Without Followed by With Contrast)",
+        "CTPW (CT Pelvis With Contrast)",
+        "CTPWO (CT Pelvis Without Contrast)",
+        "CTPWOW (CT Pelvis Without Followed by With Contrast)",
+        "CTCSW (CT Cervical Spine With Contrast)",
+        "CTCSWO (CT Cervical Spine Without Contrast)",
+        "CTCSWOW (CT Cervical Spine Without Followed by With Contrast)",
+        "CTTSW (CT Thoracic Spine With Contrast)",
+        "CTTSWO (CT Thoracic Spine Without Contrast)",
+        "CTTSWOW (CT Thoracic Spine Without Followed by With Contrast)",
+        "CTLSW (CT Lumbar Spine With Contrast)",
+        "CTLSWO (CT Lumbar Spine Without Contrast)",
+        "CTLSWOW (CT Lumbar Spine Without Followed by With Contrast)",
+        "CTUEW (CT Upper Extremity With Contrast)",
+        "CTUEWO (CT Upper Extremity Without Contrast)",
+        "CTUEWOW (CT Upper Extremity Without Followed by With Contrast)",
+        "CTLEW (CT Lower Extremity With Contrast)",
+        "CTLEWO (CT Lower Extremity Without Contrast)",
+        "CTLEWOW (CT Lower Extremity Without Followed by With Contrast)",
+        "CTOther (CT Other)"
+      ]
+    },
+    {
+      "id": 4,
+      "testTypeid": 1,
+      "testid": 4,
+      "category": [
+        "EchoSE (Echocardiogram Transthoracic Stress)",
+        "EchoTEE (Echocardiogram Transesophageal)",
+        "EchoTTE (Echocardiogram Transthoracic)",
+        "EchoHolter (Echocardiogram Holter Test)",
+        "EchoOther (Echocardiogram Other)"
+      ]
+    },
+    {
+      "id": 5,
+      "testTypeid": 1,
+      "testid": 5,
+      "category": [
+        "FC (Fluoroscopy Colon)",
+        "FESG (Fluoroscopy Esophagram)",
+        "FHSPG (Fluoroscopy Hysterosalpingogram)",
+        "FIVP (Fluoroscopy Intravenous Pyelogram)",
+        "FLGI (Fluoroscopy Lower GI)",
+        "FLP (Fluoroscopy Lumbar Puncture)",
+        "FSB (Fluoroscopy Small Bowel)",
+        "FUGI (Fluoroscopy Upper GI)",
+        "FVCUG (Fluoroscopy Voiding Cystourethrogram)",
+        "FOther (Fluoroscopy Other)"
+      ]
+    },
+    {
+      "id": 6,
+      "testTypeid": 1,
+      "testid": 6,
+      "category": [
+        "MRIBW (MRI Brain With Contrast)",
+        "MRIBWO (MRI Brain Without Contrast)",
+        "MRIBWOW (MRI Brain Without Followed by With Contrast)",
+        "MRIOFNW (MRI Orbit, Face, Neck With Contrast)",
+        "MRIOFNWO (MRI Orbit, Face, Neck Without Contrast)",
+        "MRIOFNWOW (MRI Orbit, Face, Neck Without Followed by With Contrast)",
+        "MRITMJ (MRI Temporomandibular Joints)",
+        "MRICW (MRI Chest With Contrast)",
+        "MRICWO (MRI Chest Without Contrast)",
+        "MRICWOW (MRI Chest Without Followed by With Contrast)",
+        "MRIAbW (MRI Abdomen With Contrast)",
+        "MRIAbWO (MRI Abdomen Without Contrast)",
+        "MRIAbWOW (MRI Abdomen Without Followed by With Contrast)",
+        "MRIPW (MRI Pelvis With Contrast)",
+        "MRIPWO (MRI Pelvis Without Contrast)",
+        "MRIPWOW (MRI Pelvis Without Followed by With Contrast)",
+        "MRICSW (MRI Cervical Spine With Contrast)",
+        "MRICSWO (MRI Cervical Spine Without Contrast)",
+        "MRICSWOW (MRI Cervical Spine Without Followed by With Contrast)",
+        "MRITSW (MRI Thoracic Spine With Contrast)",
+        "MRITSWO (MRI Thoracic Spine Without Contrast)",
+        "MRITSWOW (MRI Thoracic Spine Without Followed by With Contrast)",
+        "MRILSW (MRI Lumbar Spine With Contrast)",
+        "MRILSWO (MRI Lumbar Spine Without Contrast)",
+        "MRILSWOW (MRI Lumbar Spine Without Followed by With Contrast)",
+        "MRISW (MRI Shoulder With Contrast)",
+        "MRISWO (MRI Shoulder Without Contrast)",
+        "MRISWOW (MRI Shoulder Without Followed by With Contrast)",
+        "MRIHuW (MRI Humerus With Contrast)",
+        "MRIHuWO (MRI Humerus Without Contrast)",
+        "MRIHuWOW (MRI Humerus Without Followed by With Contrast)",
+        "MRIEW (MRI Elbow With Contrast)",
+        "MRIEWO (MRI Elbow Without Contrast)",
+        "MRIEWOW (MRI Elbow Without Followed by With Contrast)",
+        "MRIFW (MRI Forearm With Contrast)",
+        "MRIFWO (MRI Forearm Without Contrast)",
+        "MRIFWOW (MRI Forearm Without Followed by With Contrast)",
+        "MRIWW (MRI Wrist With Contrast)",
+        "MRIWWO (MRI Wrist Without Contrast)",
+        "MRIWWOW (MRI Wrist Without Followed by With Contrast)",
+        "MRIHndW (MRI Hand Without Contrast)",
+        "MRIHndWO (MRI Hand With Contrast)",
+        "MRIHndWOW (MRI Hand Without Followed by With Contrast)",
+        "MRIHW (MRI Hip With Contrast)",
+        "MRIHWO (MRI Hip Without Contrast)",
+        "MRIHWOW (MRI Hip Without Followed by With Contrast)",
+        "MRIFeW (MRI Femur With Contrast)",
+        "MRIFeWO (MRI Femur Without Contrast)",
+        "MRIFeWOW (MRI Femur Without Followed by With Contrast)",
+        "MRIKW (MRI Knee With Contrast)",
+        "MRIKWO (MRI Knee Without Contrast)",
+        "MRIKWOW (MRI Knee Without Followed by With Contrast)",
+        "MRITFW (MRI Tibia/Fibula With Contrast)",
+        "MRITFWO (MRI Tibia/Fibula Without Contrast)",
+        "MRITFWOW (MRI Tibia/Fibula Without Followed by With Contrast)",
+        "MRIAW (MRI Ankle With Contrast)",
+        "MRIAWO (MRI Ankle Without Contrast)",
+        "MRIAWOW (MRI Ankle Without Followed by With Contrast)",
+        "MRIFtW (MRI Foot With Contrast)",
+        "MRIFtWO (MRI Foot Without Contrast)",
+        "MRIFtWOW (MRI Foot Without Followed by With Contrast)",
+        "MRIOther (MRI Other)"
+      ]
+    },
+    {
+    "id": 7,
+    "testTypeid": 1,
+    "testid": 7,
+    "category": [
+      "NBS3 (Nuclear Bone Scan 3 Phase)",
+      "NBSL (Nuclear Bone Scan Limited)",
+      "NBSWB (Nuclear Bone Scan Whole Body)",
+      "NGES (Nuclear Gastric Emptying Scan)",
+      "NHIDA (Nuclear Hepatobiliary Iminodiacetic Acid Scan Without CCK)",
+      "NHIDACCK (Nuclear Hepatobiliary Iminodiacetic Acid Scan With CCK)",
+      "NLSS (Nuclear Liver/Spleen Scan)",
+      "NLSP (Nuclear Lung Scan Perfusion)",
+      "NVQLS (Nuclear Lung Scan Perfusion/Ventilation)",
+      "NMPI (Nuclear Myocardial Perfusion)",
+      "NMUGA (Nuclear Multi Gated Acquisition Scan)",
+      "NPS (Nuclear Parathyroid Scan)",
+      "NRS (Nuclear Renal scan (Renogram))",
+      "NThS (Nuclear Thyroid Scan)",
+      "NThU (Nuclear Thyroid Uptake)",
+      "NOther (Nuclear Other)"
+    ]
+  },
+  
+    {
+    "id": 8,
+    "testTypeid": 1,
+    "testid": 8,
+    "category": [
+      "PETB (PET Brain)",
+      "PETM (PET Myocardial)",
+      "PETT (PET Tumor)",
+      "PETOther (PET Other)"
+    ]
+  }
+  ,
+  {
+    "id": 9,
+    "testTypeid": 1,
+    "testid": 9,
+    "category": [
+      "USHN (Ultrasound Head/Neck Soft Tissue)",
+      "USABI (Ultrasound Ankle/Brachial Indices)",
+      "USAC (Ultrasound Abdomen Complete)",
+      "USAL (Ultrasound Abdomen Limited)",
+      "USB (Ultrasound Breast)",
+      "USRP (Ultrasound Retroperitoneal (Aorta, IVC))",
+      "USAAA (Ultrasound Abdominal Aortic Aneurysm)",
+      "USC (Ultrasound Chest)",
+      "USOB1T (Ultrasound OB Less Than or Equal to 14 Weeks)",
+      "USOB23T (Ultrasound OB After 14 Weeks)",
+      "USTNOB (Ultrasound Transvaginal Non-OB)",
+      "USTOB (Ultrasound Transvaginal OB)",
+      "USP (Ultrasound Pelvis)",
+      "USR (Ultrasound Renal (Kidneys, Bladder))",
+      "UST (Ultrasound Thyroid)",
+      "USTe (Ultrasound Testicular)",
+      "USD (Ultrasound Doppler)",
+      "USCDB (Ultrasound Carotid Doppler Bilateral)",
+      "USADLE (Ultrasound Arterial Doppler Lower Extremity)",
+      "USADUE (Ultrasound Arterial Doppler Upper Extremity)",
+      "USVDLE (Ultrasound Venous Doppler Lower Extremity)",
+      "USVDUE (Ultrasound Venous Doppler Upper Extremity)",
+      "USOther (Ultrasound Other)"
+    ]
+  },
+  {
+    "id": 10,
+    "testTypeid": 1,
+    "testid": 10,
+    "category": [
+      "XSinus (X-Ray Sinuses)",
+      "XChest1 (X-Ray Chest 1 view)",
+      "XChest2 (X-Ray Chest 2 view)",
+      "XAbd (X-Ray Abdominal series)",
+      "XAbd2 (X-Ray Abdomen 2 view)",
+      "XKUB (X-Ray Kidney, Ureter, Bladder)",
+      "XCSpine3 (X-Ray C-spine 3 view)",
+      "XCSpine4 (X-Ray C-spine 4/5 view)",
+      "XTSpine3 (X-Ray T-spine 3 view)",
+      "XLSpine2 (X-Ray L-spine 2/3 view)",
+      "XShoulder (X-Ray Shoulder)",
+      "XHum (X-Ray Humerus)",
+      "XElbow (X-Ray Elbow)",
+      "XRadUl (X-Ray Radius Ulna (Forearm))",
+      "XWrist (X-Ray Wrist)",
+      "XHand (X-Ray Hand)",
+      "XHip (X-Ray Hip)",
+      "XFemur (X-Ray Femur)",
+      "XKnee (X-Ray Knee)",
+      "XTibFib (X-Ray Tibia Fibula)",
+      "XAnkle (X-Ray Ankle)",
+      "XFoot (X-Ray Foot)",
+      "XOther (X-Ray Other)"
+    ]
+  },
+  {
+    "id": 11,
+    "testTypeid": 1,
+    "testid": 11,
+    "category": [
+      "200 (Esophagram - Barium Swallow)",
+      "203 (Barium Enema)",
+      "206 (VCUG)",
+      "201 (Upper GI)",
+      "204 (Barium Enema w/ Air Contrast)",
+      "207 (Arthrogram Joint)",
+      "202 (Small Bowel)",
+      "205 (IVP)"
+    ]
+  },
+  {
+    "id": 12,
+    "testTypeid": 1,
+    "testid": 12,
+    "category": [
+      "301 (Mammography Screening No Symptoms)",
+      "303 (Mammography Screening Right)",
+      "305 (Mammography Diagnostic)",
+      "302 (Mammography Screening Left)",
+      "304 (Mammography Screening Bilateral)",
+      "300 (DEXA - Spine & Femur)"
+    ]
+  }
+  ,
+  
+    {
+      "id": 13,
+      "testTypeid": 2,
+      "testid": 13,
+      "category": [
+        "001081 (Albumin, Serum)",
+        "002055 (Protein, Total, CSF)",
+        "001198 (Sodium, Serum)",
+        "019497 (Glucose, Body Fluid)",
+        "003269 (Calcium, 24 hr Urine)",
+        "001180 (Potassium, Serum)",
+        "001578 (Carbon Dioxide, Total)",
+        "001370 (Creatinine, Serum)",
+        "001040 (BUN)",
+        "001206 (Chloride, Serum)",
+        "001107 (Alkaline Phosphatase, Serum)"
+      ]
+    },
+    {
+      "id": 14,
+      "testTypeid": 2,
+     "testid": 14,
+      "category": [
+        "005025 (WBC)",
+        "005058 (Hematocrit)",
+        "005033 (Red Blood Cell (RBC) Count)",
+        "014102 (Platelet Autoantibody Panel)",
+        "005223 (Hemoglobin (Hgb) Solubility)"
+      ]
+    },
+    {
+      "id": 15,
+      "testTypeid": 2,
+      "testid": 15,
+      "category": [
+        "001016 (Calcium, Serum)",
+        "001040 (BUN)",
+        "001073 (Protein, Total, Serum)",
+        "001123 (AST SGOT)",
+        "001370 (Creatinine, Serum)",
+        "001081 (Albumin, Serum)",
+        "003160 (Chloride, Urine)",
+        "001578 (Carbon Dioxide, Total)",
+        "005058 (Hematocrit)",
+        "003186 (Potassium, Urine)"
+      ]
+    },
+    {
+      "id": 16,
+      "testTypeid": 2,
+     "testid": 16,
+      "category": [
+        "001040 (BUN)",
+        "001032 (Glucose, Serum)",
+        "002402 (Creatine, Serum)",
+        "001172 (Triglycerides)",
+        "001925 (HDL Cholesterol)",
+        "003004 (Creatinine Clearance)"
+      ]
+    },
+    {
+      "id": 17,
+      "testTypeid": 2,
+      "testid": 17,
+      "category": [
+        "003772 (Urinalysis, Complete)",
+        "013037 (pH, Urine)",
+        "090373 (Glucose Tolerance (5sp Blood))",
+        "005058 (Hematocrit)",
+        "001198 (Sodium, Serum)",
+        "003186 (Potassium, Urine)",
+        "003012 (Creatinine, 24hr Urine)",
+        "001016 (Calcium, Serum)",
+        "003269 (Calcium, 24 hr Urine)",
+        "003004 (Creatinine Clearance)",
+        "235010 (Lipid Panel With LDL / HDL Ratio)",
+        "303756 (Lipid Panel)",
+        "001040 (BUN)",
+        "001073 (Protein, Total, Serum)",
+        "001081 (Albumin, Serum)"
+      ]
+    },
+    {
+      "id": 18,
+      "testTypeid": 2,
+      "testid": 18,
+      "category": [
+        "001040 (BUN)",
+        "001370 (Creatinine, Serum)"
+      ]
+    },
+    {
+      "id": 19,
+      "testTypeid": 2,
+      "testid": 19,
+      "category": [
+        "003277 (Protein Total, Qn, 24 hr Urine)",
+        "019497 (Glucose, Body Fluid)",
+        "001370 (Creatinine, Serum)",
+        "015173 (Differential / Total WBC Count)",
+        "013037 (pH, Urine)",
+        "005009 (CBC With Differential / Platelet)",
+        "001834 (Complement C4, Serum)",
+        "006452 (Complement C3, Serum)"
+      ]
+    },
+    {
+      "id": 20,
+      "testTypeid": 2,
+      "testid": 20,
+      "category": [
+        "702 (PAP Thin Prep)",
+        "900398 (GC/Chlamydia Amplified Probe)",
+        "902043 (Bacterial Vaginosis / Vaginitis Panel)",
+        "1017 (Total Cholesterol)",
+        "1877 (Lipid Panel)"
+      ]
+    },
+    {
+      "id": 21,
+      "testTypeid": 2,
+     "testid": 21,
+      "category": [
+        "9421 (Pap Smear)"
+      ]
+    },
+    {
+      "id": 22,
+      "testTypeid": 2,
+      "testid": 22,
+      "category": [
+        "G0102 (Digital Rectal Exam)",
+        "g0103 (PSA - Prostate Specific Antigen)",
+        "81000 (Urinalysis)"
+      ]
+    }
+  
+  
+  ]
+   

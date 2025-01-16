@@ -1,0 +1,26 @@
+[
+    { "id": 1, "testTypeid": 1, "test": "Bone Densitometry" },
+    { "id": 2, "testTypeid": 1, "test": "Breast Imaging" },
+    { "id": 3, "testTypeid": 1, "test": "CT/CTA" },
+    { "id": 4, "testTypeid": 1, "test": "Echocardiogram" },
+    { "id": 5, "testTypeid": 1, "test": "Fluoroscopy" },
+    { "id": 6, "testTypeid": 1, "test": "MRI/MRA" },
+    { "id": 7, "testTypeid": 1, "test": "Nuclear Medicine" },
+    { "id": 8, "testTypeid": 1, "test": "PET" },
+    { "id": 9, "testTypeid": 1, "test": "Ultrasound" },
+    { "id": 10, "testTypeid": 1, "test": "X-Ray" },
+    { "id": 11, "testTypeid": 1, "test": "Imaging Central" },
+   { "id": 12, "testTypeid": 1, "test": "Mammography/DEXA"},
+    { "id": 13, "testTypeid": 2, "test": "Metabolic Panel" },
+    { "id": 14, "testTypeid": 2, "test": "CBC (Complete Blood Count)" },
+    { "id": 15, "testTypeid": 2, "test": "CMP (Complete Metabolic Panel)" },
+    { "id": 16, "testTypeid": 2, "test": "Diabetes" },
+    { "id": 17, "testTypeid": 2, "test": "Hypertension" },
+    { "id": 18, "testTypeid": 2, "test": "Kidney Test" },
+    { "id": 19, "testTypeid": 2, "test": "Nephrology Urology" },
+    { "id": 20, "testTypeid": 2, "test": "OB/GYN" },
+    { "id": 21, "testTypeid": 2, "test": "PAP Smear" },
+    { "id": 22, "testTypeid": 2, "test": "SHCA Lab" }   
+  
+  ]
+  
