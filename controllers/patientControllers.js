@@ -1,11 +1,12 @@
 import Inception from "../models/inception.js";
 import Patient from "../models/patient.js";
 import Vitals from '../models/vitals.js'
+import { Op } from 'sequelize';
+
 export const patientDetails=async(req,res)=>{
     try {
         // Log request body and files for debugging
-        console.log('req.body:', req.body);
-        console.log('req.files:', req.files);
+        
 
         // Destructure the fields from the request body
         const {
@@ -81,10 +82,10 @@ export const getAllPatients = async (req, res) => {
   };
 
   export const getPatient=async (req, res) => {
-    console.log('123');
+   
 
     const { id } = req.params;
-    console.log('id',id);
+    
     
   try {
     const patient = await Patient.findByPk(id); // Find patient by primary key
@@ -100,9 +101,10 @@ export const getAllPatients = async (req, res) => {
 
 
 export const addVitals=async (req, res) => {
-  console.log('123');
   
-  const { patientId } = req.params;
+  
+  const { id } = req.params;
+  const patientId=id
   const {
     weight,
     previousWeight,
@@ -148,10 +150,10 @@ export const addVitals=async (req, res) => {
 };
 
 export const inceptionDetails=async (req, res) => {
-  console.log('123');
+ 
   
   const { patientId, inceptionFields } = req.body;
-console.log('req.body',req.body);
+
 
   try {
     // Save inception data to the database
@@ -164,5 +166,67 @@ console.log('req.body',req.body);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: 'Failed to save data', error });
+  }
+};
+
+// export const patientSearch = async (req, res) => {
+//   console.log('12345');
+  
+//   const { query } = req.query;  // Access 'query' from req.query
+//   console.log('query', query);
+  
+//   try {
+//     const patients = await Patient.findAll({
+//       where: {
+//         [Op.or]: [
+//           { firstName: { [Op.like]: `%${query}%` } },
+//           { lastName: { [Op.like]: `%${query}%` } },
+//         ],
+//       },
+//       attributes: ['id', 'firstName', 'lastName', 'dateOfBirth'], // Return relevant fields
+//     });
+
+//     if (patients.length === 0) {
+//       return res.status(404).json({ message: 'Patient not found' });
+//     }
+
+//     console.log('patients', patients);
+//     res.json(patients);
+//   } catch (error) {
+//     console.error('Error during search:', error);
+//     res.status(500).json({ message: 'Server error' });
+//   }
+// };
+
+
+
+export const patientSearch = async (req, res) => {
+  console.log('Received search request');
+  
+  const { query } = req.body;  // Extract the 'query' from the request body
+  console.log('Search query:', query);  // Log the query received
+
+  try {
+    // Search for patients matching firstName or lastName
+    const patients = await Patient.findAll({
+      where: {
+        [Op.or]: [
+          { firstName: { [Op.like]: `%${query}%` } },
+          { lastName: { [Op.like]: `%${query}%` } },
+        ],
+      },
+      attributes: ['id', 'firstName', 'lastName', 'dateOfBirth'], // Fields to return
+    });
+
+    // If no patients are found, return a 404 status
+    if (patients.length === 0) {
+      return res.status(404).json({ message: 'No patients found' });
+    }
+
+    console.log('Found patients:', patients);  // Log the list of found patients
+    res.json(patients);  // Return the patient data to the frontend
+  } catch (error) {
+    console.error('Error during patient search:', error);
+    res.status(500).json({ message: 'Server error' });
   }
 };
