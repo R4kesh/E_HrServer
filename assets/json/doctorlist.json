@@ -1,0 +1,33 @@
+[
+    {
+      "doctorId": "D001",
+      "doctorName": "Dr. John Doe",
+      "specialization": "Cardiology",
+      "qualification": "MD, Cardiology"
+    },
+    {
+      "doctorId": "D002",
+      "doctorName": "Dr. Sarah Smith",
+      "specialization": "Neurology",
+      "qualification": "DM, Neurology"
+    },
+    {
+      "doctorId": "D003",
+      "doctorName": "Dr. Michael Brown",
+      "specialization": "Orthopedics",
+      "qualification": "MS, Orthopedics"
+    },
+    {
+      "doctorId": "D004",
+      "doctorName": "Dr. Emily Davis",
+      "specialization": "Pediatrics",
+      "qualification": "MD, Pediatrics"
+    },
+    {
+      "doctorId": "D005",
+      "doctorName": "Dr. William Johnson",
+      "specialization": "Dermatology",
+      "qualification": "MD, Dermatology"
+    }
+  ]
+  

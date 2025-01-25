@@ -1,6 +1,7 @@
 import express from 'express';
 import { addVitals, getAllPatients, getPatient,inceptionDetails, patientDetails, patientSearch,testType
-,listTestes,testCategoryData } from '../controllers/patientControllers.js';
+,listTestes,testCategoryData, 
+doctorSearch} from '../controllers/patientControllers.js';
 import { upload } from '../middleware/fileUpload.js';
 
 const router = express.Router();
@@ -14,6 +15,7 @@ router.post('/Patientsearch',patientSearch)
 router.get('/testType',testType)
 router.get('/tests/:id',listTestes)
 router.get('/testCategoryData/:id',testCategoryData)
+router.post('/Doctorsearch',doctorSearch)
 
 
 export default router; 

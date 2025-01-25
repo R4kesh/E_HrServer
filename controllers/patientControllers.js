@@ -296,3 +296,29 @@ export const testCategoryData = async (req, res) => {
   }
   
 }
+
+export const doctorSearch=async (req, res) => {
+  const { query } = req.body;
+
+  try {
+    // Construct the file path to the doctorlist.json file
+    const filePath = path.join(__dirname, '..', 'assets', 'json', 'doctorlist.json');
+    
+    // Read the JSON file asynchronously
+    const data = await fs.promises.readFile(filePath, 'utf-8');
+    const doctors = JSON.parse(data); // Parse the file content to JSON
+
+    // Filter doctors based on the query (case-insensitive match on doctorName or specialization)
+    const filteredDoctors = doctors.filter(doctor =>
+      doctor.doctorName.toLowerCase().includes(query.toLowerCase()) ||
+      doctor.specialization.toLowerCase().includes(query.toLowerCase())
+    );
+
+    // Respond with the filtered doctor list
+    res.status(200).json(filteredDoctors);
+  } catch (err) {
+    // Handle errors (e.g., file not found or JSON parsing error)
+    console.error("Error fetching doctor details:", err);
+    res.status(500).json({ message: "Error fetching doctor details", error: err });
+  }
+}
