@@ -1,0 +1,30 @@
+{
+    "filterOptions": ["All", "Active", "Inactive"],
+    "tableData": [
+      {
+        "device": "Cardiac Pacemaker",
+        "site": "Upper Chest",
+        "manufacturer": "Medtronic X100",
+        "comments": "Regular checkup required",
+        "mriStatus": "Conditional",
+        "date": "2024-01-15"
+      },
+      {
+        "device": "Hip Implant",
+        "site": "Right Hip",
+        "manufacturer": "Johnson & Johnson HI200",
+        "comments": "Post-surgery observation",
+        "mriStatus": "Safe",
+        "date": "2024-01-18"
+      },
+      {
+        "device": "Dental Implant",
+        "site": "Lower Jaw",
+        "manufacturer": "Straumann D150",
+        "comments": "Follow-up in 3 months",
+        "mriStatus": "Safe",
+        "date": "2024-01-20"
+      }
+    ]
+  }
+  

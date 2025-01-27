@@ -1,0 +1,45 @@
+{
+    "statuses": [
+      "Auth required",
+      "Expired",
+      "No longer use",
+      "Ready for use",
+      "Referral request",
+      "Appeal",
+      "Approved",
+      "Closed",
+      "Denied",
+      "Pending appointment"
+    ],
+    "referrals": [
+      {
+        "referralReason": "Consultation",
+        "referralNumber": "R12345",
+        "status": "Approved",
+        "createdDate": "2025-01-15",
+        "expireDate": "2025-02-15",
+        "referredTo": "Dr. John Doe",
+        "facility": "City Hospital",
+        "diagnosisCode": "D123",
+        "authorizationNumber": "A456",
+        "visitsMax": 5,
+        "amountMax": 1000,
+        "notes": "Urgent referral for immediate attention."
+      },
+      {
+        "referralReason": "Surgery",
+        "referralNumber": "R54321",
+        "status": "Pending",
+        "createdDate": "2025-01-10",
+        "expireDate": "2025-03-10",
+        "referredTo": "Dr. Jane Smith",
+        "facility": "Health Care Center",
+        "diagnosisCode": "S456",
+        "authorizationNumber": "A789",
+        "visitsMax": 2,
+        "amountMax": 5000,
+        "notes": "Referral pending due to missing documents."
+      }
+    ]
+  }
+  

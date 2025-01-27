@@ -1,0 +1,29 @@
+{
+    "providers": ["MILLER ALEX MC", "JOHN DOE", "JANE SMITH"],
+    "departments": ["ARCHE'S MEDICAL CENTER", "CITY HOSPITAL", "REGIONAL HEALTH CLINIC"],
+    "folders": ["Results", "Patient Consent Form", "Patient Intake Form", "Orders", "Notes"],
+    "companies": ["Imaging", "Labs", "Imaging central", "Inhouse", "Labcorp"],
+    "testResults": [
+      {
+        "testName": "Blood Test",
+        "resultName": "Hemoglobin",
+        "results": "13.5",
+        "outOfRange": false,
+        "flag": "normal",
+        "units": "g/dL",
+        "range": "12-16",
+        "stat": "Routine"
+      },
+      {
+        "testName": "Urine Test",
+        "resultName": "Protein",
+        "results": "Negative",
+        "outOfRange": false,
+        "flag": "normal",
+        "units": "mg/dL",
+        "range": "0-30",
+        "stat": "Routine"
+      }
+    ]
+  }
+  

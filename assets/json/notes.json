@@ -1,0 +1,32 @@
+{
+    "providers": ["SMITH, TRACY, MD", "JOHNSON, ALEX, MD"],
+    "templateTypes": [
+      "Allergy-Immunology",
+      "Cardiology",
+      "Dermatology",
+      "Electronic Case Report",
+      "ENT",
+      "Family Practice",
+      "Gastroenterology",
+      "Internal Medicine",
+      "Mental Health",
+      "OB-GYN",
+      "Orthopedics",
+      "Pain Management",
+      "Pediatrics",
+      "Podiatry",
+      "Surgery",
+      "Urgent Care",
+      "Urology"
+    ],
+    "statuses": ["New", "Current", "Historic"],
+    "defaultValues": {
+      "provider": "SMITH, TRACY, MD",
+      "department": "ARCHES MEDICAL CENTER",
+      "visit": "Allergy_Immunology",
+      "folder": "Notes",
+      "date": "2025-01-17T08:04",
+      "timeElapsed": "0:00"
+    }
+  }
+  

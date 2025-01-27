@@ -1,0 +1,15 @@
+{
+    "relationships": [
+      "Father",
+      "Mother",
+      "Spouse",
+      "Child",
+      "Sibling",
+      "Grandparent"
+    ],
+    "payers": [
+      "Self",
+      "Responsible Party"
+    ]
+  }
+  
