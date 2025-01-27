@@ -282,7 +282,6 @@ export const testCategoryData = async (req, res) => {
   
       const testCategoryData = JSON.parse(data);
       const category = testCategoryData.find(item => item.testid === parseInt(testId));
-  console.log('category',category)
       if (category) {
         res.json(category);
       } else {

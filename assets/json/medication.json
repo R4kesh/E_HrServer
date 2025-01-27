@@ -1,0 +1,47 @@
+{
+    "fields": [
+      {
+        "label": "Select Medication",
+        "name": "medication",
+        "type": "dropdown",
+        "placeholder": "Choose a medicine"
+      },
+      {
+        "label": "Pharmacy",
+        "name": "pharmacy",
+        "type": "text",
+        "placeholder": "Pharmacy will autofill"
+      },
+      {
+        "label": "Status",
+        "name": "status",
+        "type": "text",
+        "placeholder": "Status will autofill"
+      },
+      {
+        "label": "Dosage",
+        "name": "dosage",
+        "type": "text",
+        "placeholder": "Dosage will autofill"
+      },
+      {
+        "label": "Form",
+        "name": "form",
+        "type": "text",
+        "placeholder": "Form will autofill"
+      },
+      {
+        "label": "Date",
+        "name": "date",
+        "type": "date",
+        "placeholder": "Date will autofill"
+      },
+      {
+        "label": "Refills",
+        "name": "refills",
+        "type": "number",
+        "placeholder": "Refills will autofill"
+      }
+    ]
+  }
+  

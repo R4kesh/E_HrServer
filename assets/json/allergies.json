@@ -1,0 +1,16 @@
+{
+    "fields": {
+      "allergy": "Search Allergies",
+      "severity": "Severity",
+      "status": "Status",
+      "reaction": "Reaction",
+      "treatment": "Treatment",
+      "date": "Date"
+    },
+    "options": {
+      "allergy": ["Penicillin", "Peanuts", "Latex", "Aspirin", "Sulfa Drugs", "Dairy", "Eggs", "Shellfish"],
+      "severity": ["Mild", "Mild to Moderate", "Moderate", "Moderate to Severe", "Severe", "Fatal"],
+      "status": ["Current", "History"]
+    }
+  }
+  

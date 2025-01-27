@@ -1,0 +1,54 @@
+
+    [
+        {
+          "question": "General",
+          "options": ["Weight changes", "Fever", "Fatigue"]
+        },
+        {
+          "question": "Skin",
+          "options": ["Rashes", "Lesions", "Changes in pigmentation"]
+        },
+        {
+          "question": "Head, Eyes, Ears, Nose, Throat (HEENT)",
+          "options": ["Headaches", "Vision changes", "Hearing loss", "Sinus issues", "Throat pain"]
+        },
+        {
+          "question": "Cardiovascular",
+          "options": ["Chest pain", "Palpitations", "Edema"]
+        },
+        {
+          "question": "Respiratory",
+          "options": ["Shortness of breath", "Cough", "Wheezing"]
+        },
+        {
+          "question": "Gastrointestinal",
+          "options": ["Nausea", "Vomiting", "Abdominal pain"]
+        },
+        {
+          "question": "Genitourinary",
+          "options": ["Urinary frequency", "Incontinence", "Pain"]
+        },
+        {
+          "question": "Musculoskeletal",
+          "options": ["Joint pain", "Stiffness", "Weakness"]
+        },
+        {
+          "question": "Neurological",
+          "options": ["Dizziness", "Seizures", "Memory issues"]
+        },
+        {
+          "question": "Endocrine",
+          "options": ["Excessive thirst", "Heat intolerance"]
+        },
+        {
+          "question": "Hematologic/Lymphatic",
+          "options": ["Easy bruising", "Swollen lymph nodes"]
+        },
+        {
+          "question": "Psychiatric",
+          "options": ["Anxiety", "Depression", "Mood swings"]
+        }
+      ]
+      
+
+  
