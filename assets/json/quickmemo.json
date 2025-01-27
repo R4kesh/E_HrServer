@@ -1,0 +1,28 @@
+{
+    "fields": {
+      "date": {
+        "label": "Date",
+        "type": "date",
+        "placeholder": "Select a date"
+      },
+      "type": {
+        "label": "Type",
+        "type": "dropdown",
+        "options": [
+          { "value": "confidential", "label": "Confidential" },
+          { "value": "miscellaneous", "label": "Miscellaneous" },
+          { "value": "documents", "label": "Documents" },
+          { "value": "PM Memos", "label": "PM Memos" },
+          { "value": "Display", "label": "Display" },
+          { "value": "Hidden", "label": "Hidden" }
+        ]
+      },
+      "note": {
+        "label": "Note",
+        "type": "textarea",
+        "placeholder": "Enter your note here...",
+        "maxLength": 100
+      }
+    }
+  }
+  

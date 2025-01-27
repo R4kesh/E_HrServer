@@ -1,0 +1,106 @@
+[
+    {
+      "label": "Weight",
+      "placeholder": "Enter Weight",
+      "unit": "kg",
+      "type": "number",
+      "step": 0.1,
+      "required": true
+    },
+    {
+      "label": "Previous Weight",
+      "placeholder": "Enter Previous Weight",
+      "unit": "kg",
+      "type": "number",
+      "step": 0.1,
+      "required": true
+    },
+    {
+      "label": "Weight Change",
+      "placeholder": "Enter Weight Change",
+      "unit": "kg",
+      "type": "number",
+      "step": 0.1,
+      "required": true
+    },
+    {
+      "label": "Height",
+      "placeholder": "Enter Height",
+      "unit": "cm",
+      "type": "number",
+      "step": 0.1,
+      "required": true
+    },
+    {
+      "label": "BMI",
+      "placeholder": "Enter BMI",
+      "unit": "",
+      "type": "number",
+      "step": 0.1,
+      "required": true
+    },
+    {
+      "label": "Pulse",
+      "placeholder": "Enter Pulse",
+      "unit": "bpm",
+      "type": "number",
+      "step": 1,
+      "required": true
+    },
+    {
+      "label": "Temperature",
+      "placeholder": "Enter Temperature",
+      "unit": "°C",
+      "type": "number",
+      "step": 0.1,
+      "required": true
+    },
+    {
+      "label": "Respiration Rate",
+      "placeholder": "Enter Respiration Rate",
+      "unit": "breaths/min",
+      "type": "number",
+      "step": 1,
+      "required": true
+    },
+    {
+      "label": "Oxygen Saturation",
+      "placeholder": "Enter Oxygen Saturation",
+      "unit": "%",
+      "type": "number",
+      "step": 0.1,
+      "required": true
+    },
+    {
+      "label": "Oxygen Supplement",
+      "placeholder": "Enter Oxygen Supplement Details",
+      "unit": "",
+      "type": "text",
+      "required": false
+    },
+    {
+      "label": "Systolic BP",
+      "placeholder": "Enter Systolic BP",
+      "unit": "mmHg",
+      "type": "number",
+      "step": 1,
+      "required": true
+    },
+    {
+      "label": "Diastolic BP",
+      "placeholder": "Enter Diastolic BP",
+      "unit": "mmHg",
+      "type": "number",
+      "step": 1,
+      "required": true
+    },
+    {
+      "label": "BP Measurement Location",
+      "placeholder": "",
+      "unit": "",
+      "type": "select",
+      "options": ["Right Arm", "Left Arm", "Right Leg", "Left Leg"],
+      "required": true
+    }
+  ]
+  

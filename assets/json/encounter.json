@@ -1,0 +1,9 @@
+{
+    "encounters": [
+      { "title": "MENTAL HEALTH EVAL", "doctor": "JONES, CAMERON, MD", "date": "12-13-17", "status": "Booked" },
+      { "title": "MENTAL HEALTH EVAL", "doctor": "OSHEA, JAMIE, MD", "date": "12-07-17", "status": "Booked" },
+      { "title": "OV - 2 PROBLEMS", "doctor": "VANCE, RORY", "date": "12-01-17", "status": "Booked" },
+      { "title": "PT RE-EVAL", "doctor": "BABBIT, CASEY, MD", "date": "11-21-17", "status": "Booked" }
+    ]
+  }
+  
