@@ -18,6 +18,8 @@ const app = express();
 app.use(cors({origin: 'http://localhost:5173'}));          
 app.use(express.json());
 app.use('/api/patient', patientRoutes);
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
+
 app.use('/uploads', express.static(path.join(__dirname, 'assets')));
 const port = process.env.PORT || 3000;
 

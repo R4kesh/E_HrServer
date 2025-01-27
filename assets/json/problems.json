@@ -1,0 +1,29 @@
+{
+    "problemHistory": [
+      {
+        "reviewed": "Yes",
+        "noKnownProblems": "No",
+        "onsetDate": "2025-01-01",
+        "encounterDate": "2025-01-10",
+        "status": "Current",
+        "endDate": "2025-01-15",
+        "problem": "Diabetes",
+        "comment": "Patient under observation."
+      },
+      {
+        "reviewed": "No",
+        "noKnownProblems": "Yes",
+        "onsetDate": "2025-01-05",
+        "encounterDate": "2025-01-12",
+        "status": "History",
+        "endDate": "2025-01-20",
+        "problem": "Hypertension",
+        "comment": "No immediate concerns."
+      }
+    ],
+    "dropdownOptions": {
+      "statuses": ["Current", "History", "Resolved"],
+      "problems": ["Diabetes", "Hypertension", "Allergy"]
+    }
+  }
+  
