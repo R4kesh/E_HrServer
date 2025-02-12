@@ -1,0 +1,169 @@
+[
+    {
+      "id": "health",
+      "title": "Health Composition",
+      "icon": "🫀",
+      "content": {
+        "Glucose": { "value": "7.9 mmol/L", "status": "green" },
+        "Cholesterol": { "value": "195 mg/dL", "status": "red" }
+      }
+    },
+    {
+      "id": "immunizations",
+      "title": "Immunizations",
+      "icon": "💉",
+      "content": {
+        "Flu Vaccine": { "value": "Completed", "status": "green" },
+        "Vaccine Note": { "value": "Completed", "status": "green" }
+      }
+    },
+    {
+      "id": "immunotherapy",
+      "title": "Immunotherapy",
+      "icon": "💉",
+      "content": {
+        "Immunotherapy Plan": { "value": "Ongoing", "status": "green" },
+        "Vaccine Note": { "value": "Ongoing", "status": "green" }
+      }
+    },
+    {
+      "id": "vitals",
+      "title": "Vital Signs",
+      "icon": "📊",
+      "content": {
+        "BP": { "value": "120/80", "status": "green" },
+        "HR": { "value": "72 bpm", "status": "green" }
+      }
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "icon": "📝",
+      "content": {
+        "note1": { "value": "Patient is stable", "status": "green" }
+      }
+    },
+    {
+      "id": "allergies",
+      "title": "Allergies",
+      "icon": "⚠️",
+      "content": {
+        "Penicillin": { "value": "Severe", "status": "red" },
+        "Codeine": { "value": "Moderate", "status": "orange" }
+      }
+    },
+    {
+      "id": "problems",
+      "title": "Problems",
+      "icon": "⚠️",
+      "content": {
+        "Chronic Pain": { "value": "Ongoing", "status": "orange" }
+      }
+    },
+    {
+      "id": "medications",
+      "title": "Medications",
+      "icon": "💊",
+      "content": {
+        "Albuterol": { "value": "2 puffs/6h", "status": "blue" },
+        "Vitamin D": { "value": "1000 IU daily", "status": "green" }
+      }
+    },
+    {
+      "id": "plan-summary",
+      "title": "Plan Summary",
+      "icon": "📋",
+      "content": {
+        "Treatment Plan": { "value": "To be reviewed", "status": "blue" }
+      }
+    },
+    {
+      "id": "documents",
+      "title": "Documents",
+      "icon": "📑",
+      "content": {
+        "Medical Records": { "value": "Available", "status": "green" }
+      }
+    },
+    {
+      "id": "lab-orders",
+      "title": "Lab Orders",
+      "icon": "🔬",
+      "content": {
+        "Blood Test": { "value": "Ordered", "status": "blue" }
+      }
+    },
+    {
+      "id": "lab-results",
+      "title": "Lab Results",
+      "icon": "🧪",
+      "content": {
+        "Blood Test": { "value": "Pending", "status": "yellow" }
+      }
+    },
+    {
+      "id": "messages",
+      "title": "Messages",
+      "icon": "📩",
+      "content": {
+        "Doctor's Message": { "value": "Follow-up required", "status": "orange" }
+      }
+    },
+    {
+      "id": "quick-memos",
+      "title": "Quick Memos",
+      "icon": "🗒️",
+      "content": {
+        "Reminder": { "value": "Check medications", "status": "green" }
+      }
+    },
+    {
+      "id": "risk-factors",
+      "title": "Risk Factors",
+      "icon": "⚠️",
+      "content": {
+        "High Cholesterol": { "value": "Yes", "status": "red" }
+      }
+    },
+    {
+      "id": "health-watcher",
+      "title": "Health Watcher",
+      "icon": "👁️",
+      "content": {
+        "Monitor": { "value": "Stable", "status": "green" }
+      }
+    },
+    {
+      "id": "implantable-devices",
+      "title": "Implantable Devices",
+      "icon": "💎",
+      "content": {
+        "Pacemaker": { "value": "Active", "status": "green" }
+      }
+    },
+    {
+      "id": "encounters",
+      "title": "Encounters",
+      "icon": "📅",
+      "content": {
+        "Last Visit": { "value": "Jan 2025", "status": "green" }
+      }
+    },
+    {
+      "id": "family-connections",
+      "title": "Family Connections",
+      "icon": "👨‍👩‍👧",
+      "content": {
+        "Spouse": { "value": "John Doe", "status": "green" }
+      }
+    },
+    {
+      "id": "referrals",
+      "title": "Referrals",
+      "icon": "🔗",
+      "content": {
+        "Cardiologist": { "value": "Referred", "status": "green" }
+      }
+    }
+  ]
+  

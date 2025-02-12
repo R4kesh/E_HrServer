@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "message": "Hello! How are you doing today?",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "time": "2h ago"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "message": "I'm available for the meeting at 3 PM. Let me know!",
+      "image": "https://randomuser.me/api/portraits/women/1.jpg",
+      "time": "3h ago"
+    },
+    {
+      "id": 3,
+      "name": "Sam Lee",
+      "message": "Here's the document you requested. Let me know if you need anything else.",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg",
+      "time": "5h ago"
+    },
+    {
+      "id": 4,
+      "name": "Anna Kim",
+      "message": "Would you be able to review my project proposal?",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "time": "8h ago"
+    }
+  ]
+  
