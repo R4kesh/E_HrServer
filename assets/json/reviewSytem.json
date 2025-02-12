@@ -9,7 +9,7 @@
           "options": ["Rashes", "Lesions", "Changes in pigmentation"]
         },
         {
-          "question": "Head, Eyes, Ears, Nose, Throat (HEENT)",
+          "question": "Head, Eyes, Ears, Nose, Throat",
           "options": ["Headaches", "Vision changes", "Hearing loss", "Sinus issues", "Throat pain"]
         },
         {
